@@ -48,6 +48,25 @@ ol {
   clip: rect(0 0 0 0);
 }
 
+.button {
+  border: 1px solid #fff;
+  color:#fff;
+  font-family: Fira Sans Condensed;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -69,25 +88,6 @@ ol {
   block-size: 100%;
   object-fit: contain;
   object-position: center;
-}
-
-.button {
-  border: 1px solid #fff;
-  color:#fff;
-  font-family: Fira Sans Condensed;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.button:active {
-  background-color: #545050;
-}
-
-.button:hover {
-  text-decoration: underline;
 }
 
 .search-form {
@@ -134,7 +134,6 @@ ol {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
-
 
 .search-form__checkbox-list {
   display:flex;

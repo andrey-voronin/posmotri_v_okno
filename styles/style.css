@@ -224,10 +224,17 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
   overflow-x: hidden;
   overflow-y: auto;
   block-size: 298px;
+}
+
+.content__list-item {
+  margin-block-end: 30px;
+}
+
+.content__list-item:last-child {
+  margin-block-end: 0;
 }
 
 .content__card-link {

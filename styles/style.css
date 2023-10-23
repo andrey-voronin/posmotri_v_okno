@@ -93,7 +93,8 @@ ol {
 }
 
 .result__video {
-  object-fit: fill;
+  object-fit: cover;
+  object-position: center;
   inline-size: 100%;
   block-size: 100%;
 }
@@ -228,6 +229,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
   overflow-x: hidden;
   overflow-y: auto;
   block-size: 298px;
+  inline-size: 399px;
 }
 
 .content__card-link {
@@ -287,7 +289,8 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
 }
 
 .content__video-card-thumbnail {
-  object-fit: fill;
+  object-fit: cover;
+  object-position: center;
   inline-size: 194px;
   block-size: 103px;
 }
